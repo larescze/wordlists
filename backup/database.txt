@@ -23,10 +23,6 @@
 .dump
 .gz
 .gzip
-.htaccess.bak
-.htaccess.old
-.htm.bak
-.htm.old
 .inc.php.bak
 .ini.bak
 .js.gz

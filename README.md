@@ -1,4 +1,4 @@
-# Wordlists for discovering web sources by dictionary method.
+# Wordlists for discovering web sources by dictionary method
 
 ## Backup
 

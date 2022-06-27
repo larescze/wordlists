@@ -35,7 +35,7 @@ Jedním z nejznámějších slovníků pro lámání hesel je **rockyou**, ve kt
 
 Slovníkový útok se provádí následujícím příkazem:
 ```
-john secret.zip --wordlist=/usr/share/wordlists/rockyou.txt
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
 
 Pokud bylo lámání hesel úspěšné, tak se nalezená hesla zobrazí ve výstupu přímo v terminálu:

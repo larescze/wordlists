@@ -14,7 +14,7 @@ Nejprve je třeba otevřít Kali Linux terminál:
 
 ![Krok 1](https://cyberarena.utko.feec.vutbr.cz/img/tutorial/step1.png)
 
-Následně je třeba přejít do adresáře, kde se soubor nachází. V tomto případě je to ``/cyberarena/tutorial``.
+Následně je třeba přejít do adresáře, kde se soubor nachází. V tomto případě je to ``/cyberarena/tutorial``. Pro změnu aktuálního adresáře, použijte v terminálu příkaz **cd**:
 ```
 cd /cyberarena/tutorial
 ```

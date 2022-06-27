@@ -14,6 +14,15 @@ Nejprve je třeba otevřít Kali Linux terminál:
 
 ![Krok 1](https://cyberarena.utko.feec.vutbr.cz/img/tutorial/step1.png)
 
+Následně je třeba přejít do adresáře, kde se soubor nachází. V tomto případě je to ``/cyberarena/tutorial``.
+```
+cd /cyberarena/tutorial
+```
+Pro kontrolu je možné vypsat obsah adresáře příkazem **ls**:
+```
+ls -la
+```
+
 K extrakci hashe je možné použít nástroj **zip2john** v následujícím formátu:
 ```
 zip2john secret.zip > hash.txt

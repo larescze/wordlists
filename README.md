@@ -40,7 +40,15 @@ Při použití silného hesla může prolomení hashe trvat miliony i více let.
 Efektivnějším způsobem je tzv. slovníkový útok (dictionary attack), který lze sestavit podle určitého vzorce (např. dostupné informace o vlastníkovi souboru) nebo lze slovník sestavit z databází uniklých hesel.
 Pokud uživatel použil slabé (málo komplexní nebo již dříve odhalené heslo) a takové heslo se nachází ve slovníku, tak je nalezena shoda jeho otisku s extrahovaným hashem ze souboru ```hash.txt```.
 
-Jedním z nejznámějších slovníků pro lámání hesel je **rockyou**, ve kterém se nachází přes 14 000 000 uživatelských hesel.
+Jedním z nejznámějších slovníků pro lámání hesel je **rockyou**, ve kterém se nachází přes 14 000 000 uživatelských hesel. Před použitím slovníku se ujistěte, že není zkomprivovaný.
+```
+ls /usr/share/wordlists/
+```
+
+Pokud má soubor podobu ``rockyou.txt.gz`` (tj. koncovku .gz), zadejte do terminálu příkaz:
+```
+sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+```
 
 Slovníkový útok se provádí následujícím příkazem:
 ```
